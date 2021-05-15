@@ -91,9 +91,9 @@ const AboutPage = () => {
         <Divider classes={{ root: classes.divider }} />
         <Typography className={classes.bodyText}>
           My name is <b>K Sai Anirudh</b> and I am a third year Computer
-          Science Engineering student at Chennai Institute of Technogy. <br /> <br /> I really enjoy programmming and
-          love to be always learning something new. {" "}
-          <br /> <br /> I am a Solution-focused Software Developer with experience in web-based applications. Participated in development and implementation of web-based solutions.I have also solved real world problems by participating in various Hackathons.I like dabbling in various parts of frontend development and like to learn about new technologies, or simply play badminton in my free time.{/* TODO - add resume link */}{" "}
+          Science Engineering student at Chennai Institute of Technogy. <br /> <br /> I enjoy programming and am always eager to learn new things.
+           {" "}
+          <br /> <br /> I am a problem-solving Software Developer with experience in web-based applications. Contributed to the creation and implementation of web-based solutions. I've also solved real-world problems by taking part in Hackathons. In my spare time, I enjoy dabbling in various aspects of frontend development, learning about new technologies, and simply playing badminton.{/* TODO - add resume link */}{" "}
           <Link
             onClick={scrollToContact}
             className={classes.link}
