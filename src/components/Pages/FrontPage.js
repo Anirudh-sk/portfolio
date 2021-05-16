@@ -20,7 +20,7 @@ const FrontPage = () => {
       justifyContent: "center",
       alignItems: "center",
       width: "100%",
-      height: "95vh",
+      height: "100vh",
       backgroundImage: `url(${backgroundImage})`,
       backgroundPosition: "center top",
       backgroundRepeat: "no-repeat",
@@ -31,6 +31,7 @@ const FrontPage = () => {
         backgroundPosition: "left center",
         backgroundAttachment: "scroll",
       },
+      color:"white"
     },
     name: {
       position: "relative",
@@ -44,6 +45,7 @@ const FrontPage = () => {
       [theme.breakpoints.up("lg")]: {
         top: "7rem",
         fontSize: "5rem",
+        color:"white"
       },
     },
     topText: {
@@ -58,6 +60,7 @@ const FrontPage = () => {
         top: "7rem",
         fontSize: "4rem",
       },
+      color:"white"
     },
     bottomText: {
       position: "relative",
@@ -67,6 +70,7 @@ const FrontPage = () => {
       [theme.breakpoints.down("xs")]: {
         top: "4rem",
         fontSize: "1rem",
+        color:"white"
       },
       [theme.breakpoints.up("lg")]: {
         top: "7rem",
@@ -81,6 +85,7 @@ const FrontPage = () => {
         top: "6rem",
         fontSize: "3.5rem",
       },
+      color:"white"
     },
     backToTopButton: {
       position: "fixed",
