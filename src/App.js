@@ -3,7 +3,6 @@ import { ThemeProvider } from "@material-ui/core/styles";
 import { HashRouter, Switch, Route } from "react-router-dom";
 import "./App.css";
 
-// import AcademicProjectsPage from "./components/Pages/AcademicProjectsPage/AcademicProjectsPage";
 import NavBar from "./components/NavBar";
 import FrontPage from "./components/Pages/FrontPage";
 import AboutPage from "./components/Pages/AboutPage";
@@ -26,11 +25,6 @@ function App() {
     <ThemeProvider theme={theme}>
       <HashRouter basename="/">
         <Switch>
-          <Route
-            exact
-            path="/academic-projects"
-            
-          />
           <Route path="/" render={() => website} />
         </Switch>
       </HashRouter>
