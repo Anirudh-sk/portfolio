@@ -60,7 +60,7 @@ const AboutPage = () => {
       maxHeight: "100%",
       maxWidth: "100%",
       margin: "1rem",
-      borderRadius:30,
+      borderRadius: 30,
       marginBottom: "6rem",
       width: "40%",
       [theme.breakpoints.down("md")]: {
@@ -90,13 +90,20 @@ const AboutPage = () => {
         </Typography>
         <Divider classes={{ root: classes.divider }} />
         <Typography className={classes.bodyText}>
-          My name is <b>K Sai Anirudh</b> and I am a First year Mtech IT Student at Anna University <br /> <br /> I enjoy programming and am always eager to learn new things.
-           {" "}
-          <br /> <br /> I am a problem-solving Software Developer with experience in web-based applications. Contributed to the
-creation and implementation of web-based solutions. Iʼve also solved real-world problems by taking part in
-various hackathons. In my spare time, I enjoy dabbling in various aspects of frontend development,
-currently exploring the cloud.
-{/* TODO - add resume link */}{" "}
+          My name is <b>K Sai Anirudh</b><br />
+          {" "}
+          <br /> <br /> I am a problem-solving Software Developer with
+          strong experience in leading teams and building
+          scalable products from the ground up. Skilled in
+          managing product development lifecycles, I have
+          led cross-functional teams, conducted market
+          research, and iterated on solutions to deliver
+          scalable, user-centric applications. I bring a blend
+          of technical expertise and leadership to drive
+          product growth, streamline development
+          processes, and ensure timely delivery of highimpact solutions.
+
+          {/* TODO - add resume link */}{" "}
           <Link
             onClick={scrollToContact}
             className={classes.link}
