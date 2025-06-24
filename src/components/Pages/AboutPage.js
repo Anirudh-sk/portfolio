@@ -90,20 +90,14 @@ const AboutPage = () => {
         </Typography>
         <Divider classes={{ root: classes.divider }} />
         <Typography className={classes.bodyText}>
-          My name is <b>K Sai Anirudh</b><br />
+          My name is <b>K Sai Anirudh</b><br /><br />
+          I’m a tech-driven Product Manager with a background in software development, SaaS, and full product lifecycle ownership.
+          I’ve taken products from idea to launch — driving everything from user research and prototyping to
+          architecture, delivery, and onboarding. I led the development of a patent-pending backend architecture
+          focused on scalability and data privacy using a zero-access model.<br /><br />
+          I thrive in cross-functional teams, enjoy solving real-world problems through innovation, and
+          love working at the intersection of tech, design, and user needs to build products that create lasting impact.
           {" "}
-          <br /> <br /> I am a problem-solving Software Developer with
-          strong experience in leading teams and building
-          scalable products from the ground up. Skilled in
-          managing product development lifecycles, I have
-          led cross-functional teams, conducted market
-          research, and iterated on solutions to deliver
-          scalable, user-centric applications. I bring a blend
-          of technical expertise and leadership to drive
-          product growth, streamline development
-          processes, and ensure timely delivery of highimpact solutions.
-
-          {/* TODO - add resume link */}{" "}
           <Link
             onClick={scrollToContact}
             className={classes.link}
@@ -113,6 +107,7 @@ const AboutPage = () => {
           </Link>
           .
         </Typography>
+
         <Box
           component="img"
           src={picture}
