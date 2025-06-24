@@ -265,20 +265,7 @@ const SkillsPage = () => {
           classes={{ primary: classes.listItemText }}
         />
       </ListItem>
-      <ListItem>
-        <ListItemIcon className={classes.icon}>
-          <span
-            className="iconify"
-            data-icon="simple-icons:confluence"
-            data-inline="false"
-            style={{ fontSize: "2rem" }}
-          />
-        </ListItemIcon>
-        <ListItemText
-          primary="Confluence"
-          classes={{ primary: classes.listItemText }}
-        />
-      </ListItem>
+
       <ListItem>
         <ListItemIcon className={classes.icon}>
           <span
@@ -340,20 +327,7 @@ const SkillsPage = () => {
           classes={{ primary: classes.listItemText }}
         />
       </ListItem>
-      <ListItem>
-        <ListItemIcon className={classes.icon}>
-          <span
-            className="iconify"
-            data-icon="simple-icons:figma"
-            data-inline="false"
-            style={{ fontSize: "2rem" }}
-          />
-        </ListItemIcon>
-        <ListItemText
-          primary="Figma"
-          classes={{ primary: classes.listItemText }}
-        />
-      </ListItem>
+
       <ListItem>
         <ListItemIcon className={classes.icon}>
           <span
@@ -386,7 +360,7 @@ const SkillsPage = () => {
         <ListItemIcon className={classes.icon}>
           <span
             className="iconify"
-            data-icon="carbon:user-research"
+            data-icon="mdi:chart-box-outline"
             data-inline="false"
             style={{ fontSize: "2rem" }}
           />
@@ -423,27 +397,6 @@ const SkillsPage = () => {
       </Typography>
       <Divider classes={{ root: classes.divider }} />
       
-      {/* Technical Skills Section */}
-      <Typography
-        className={classes.sectionHeaderText}
-        align="center"
-      >
-        Technical Skills
-      </Typography>
-      <Box className={`${classes.rowDiv} ${classes.rowDivider}`}>
-        <Box className={classes.columnDiv}>
-          <List>
-            {technicalSkillsColumn1}
-            <Hidden mdUp>{technicalSkillsColumn2}</Hidden>
-          </List>
-        </Box>
-        <Hidden smDown>
-          <Box className={classes.columnDiv}>
-            <List>{technicalSkillsColumn2}</List>
-          </Box>
-        </Hidden>
-      </Box>
-
       {/* Product Management Skills Section */}
       <Typography
         className={classes.sectionHeaderText}
@@ -464,6 +417,27 @@ const SkillsPage = () => {
           </Box>
         </Hidden>
       </Box>
+            {/* Technical Skills Section */}
+      <Typography
+        className={classes.sectionHeaderText}
+        align="center"
+      >
+        Technical Skills
+      </Typography>
+      <Box className={`${classes.rowDiv} ${classes.rowDivider}`}>
+        <Box className={classes.columnDiv}>
+          <List>
+            {technicalSkillsColumn1}
+            <Hidden mdUp>{technicalSkillsColumn2}</Hidden>
+          </List>
+        </Box>
+        <Hidden smDown>
+          <Box className={classes.columnDiv}>
+            <List>{technicalSkillsColumn2}</List>
+          </Box>
+        </Hidden>
+      </Box>
+
     </Box>
   );
 };

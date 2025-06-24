@@ -91,19 +91,27 @@ const AboutPage = () => {
         <Divider classes={{ root: classes.divider }} />
         <Typography className={classes.bodyText}>
           My name is <b>K Sai Anirudh</b><br /><br />
-          I’m a tech-driven Product Manager with a background in software development, SaaS, and full product lifecycle ownership.
-          I’ve taken products from idea to launch — driving everything from user research and prototyping to
-          architecture, delivery, and onboarding. I led the development of a patent-pending backend architecture
-          focused on scalability and data privacy using a zero-access model.<br /><br />
-          I thrive in cross-functional teams, enjoy solving real-world problems through innovation, and
-          love working at the intersection of tech, design, and user needs to build products that create lasting impact.
+          I'm a <b>Technical Product Manager</b> specializing in <b>0-to-1 product development</b> and scaling solutions
+          that drive real business impact. With a strong engineering background, I excel at building products from initial
+          concept through successful launch and growth.<br /><br />
+
+          <b>What I bring:</b><br />
+          • <b>End-to-end product ownership</b> — from user research and strategy to technical architecture decisions<br />
+          • <b>Cross-functional team leadership</b> — aligning engineering, design, and business stakeholders<br />
+          • <b>Scalable system design</b> — including patent-pending architecture focused on performance and data privacy<br />
+          • <b>Technical trade-off expertise</b> — making informed decisions between speed, quality, and technical debt<br /><br />
+
+          I thrive at the intersection of technical feasibility and user needs, turning complex problems into elegant solutions.
+          My hands-on development experience allows me to work seamlessly with engineering teams while maintaining a sharp
+          focus on business outcomes and user experience. I'm passionate about building products that solve real problems
+          and create lasting value.
           {" "}
           <Link
             onClick={scrollToContact}
             className={classes.link}
             underline="none"
           >
-            contact me
+            Let's connect
           </Link>
           .
         </Typography>
