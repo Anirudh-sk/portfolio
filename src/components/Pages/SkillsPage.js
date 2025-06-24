@@ -66,27 +66,13 @@ const SkillsPage = () => {
         <ListItemIcon className={classes.icon}>
           <span
             className="iconify"
-            data-icon="bx:bxl-react"
-            data-inline="false"
-            style={{ fontSize: "2.5rem" }}
-          />
-        </ListItemIcon>
-        <ListItemText
-          primary="React.js"
-          classes={{ primary: classes.listItemText }}
-        />
-      </ListItem>
-      <ListItem>
-        <ListItemIcon className={classes.icon}>
-          <span
-            className="iconify"
-            data-icon="cib:mongodb"
+            data-icon="mdi:web"
             data-inline="false"
             style={{ fontSize: "2rem" }}
           />
         </ListItemIcon>
         <ListItemText
-          primary="MongoDB"
+          primary="Web Development"
           classes={{ primary: classes.listItemText }}
         />
       </ListItem>
@@ -94,27 +80,13 @@ const SkillsPage = () => {
         <ListItemIcon className={classes.icon}>
           <span
             className="iconify"
-            data-icon="ion:logo-javascript"
-            data-inline="false"
-            style={{ fontSize: "2.2rem" }}
-          />
-        </ListItemIcon>
-        <ListItemText
-          primary="JavaScript"
-          classes={{ primary: classes.listItemText }}
-        />
-      </ListItem>
-      <ListItem>
-        <ListItemIcon className={classes.icon}>
-          <span
-            className="iconify"
-            data-icon="icomoon-free:html-five"
+            data-icon="simple-icons:python"
             data-inline="false"
             style={{ fontSize: "2rem" }}
           />
         </ListItemIcon>
         <ListItemText
-          primary="HTML"
+          primary="Python"
           classes={{ primary: classes.listItemText }}
         />
       </ListItem>
@@ -122,13 +94,13 @@ const SkillsPage = () => {
         <ListItemIcon className={classes.icon}>
           <span
             className="iconify"
-            data-icon="simple-icons:css3"
+            data-icon="carbon:machine-learning"
             data-inline="false"
             style={{ fontSize: "2rem" }}
           />
         </ListItemIcon>
         <ListItemText
-          primary="CSS"
+          primary="Machine Learning"
           classes={{ primary: classes.listItemText }}
         />
       </ListItem>
@@ -136,13 +108,41 @@ const SkillsPage = () => {
         <ListItemIcon className={classes.icon}>
           <span
             className="iconify"
-            data-icon="simple-icons:material-ui"
+            data-icon="carbon:ai-results"
             data-inline="false"
             style={{ fontSize: "2rem" }}
           />
         </ListItemIcon>
         <ListItemText
-          primary="Material UI"
+          primary="Artificial Intelligence"
+          classes={{ primary: classes.listItemText }}
+        />
+      </ListItem>
+      <ListItem>
+        <ListItemIcon className={classes.icon}>
+          <span
+            className="iconify"
+            data-icon="fluent:chat-bubbles-question-20-filled"
+            data-inline="false"
+            style={{ fontSize: "2rem" }}
+          />
+        </ListItemIcon>
+        <ListItemText
+          primary="Large Language Models"
+          classes={{ primary: classes.listItemText }}
+        />
+      </ListItem>
+      <ListItem>
+        <ListItemIcon className={classes.icon}>
+          <span
+            className="iconify"
+            data-icon="mdi:chart-line"
+            data-inline="false"
+            style={{ fontSize: "2rem" }}
+          />
+        </ListItemIcon>
+        <ListItemText
+          primary="Data Analytics"
           classes={{ primary: classes.listItemText }}
         />
       </ListItem>
@@ -155,13 +155,13 @@ const SkillsPage = () => {
         <ListItemIcon className={classes.icon}>
           <span
             className="iconify"
-            data-icon="simple-icons:python"
+            data-icon="cib:mongodb"
             data-inline="false"
             style={{ fontSize: "2rem" }}
           />
         </ListItemIcon>
         <ListItemText
-          primary="Python"
+          primary="MongoDB"
           classes={{ primary: classes.listItemText }}
         />
       </ListItem>
