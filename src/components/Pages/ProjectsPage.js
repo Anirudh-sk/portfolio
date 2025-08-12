@@ -8,7 +8,6 @@ import {
   CardActions,
   Button,
   Chip,
-  Grid,
   IconButton,
   makeStyles,
   useTheme,
@@ -206,10 +205,7 @@ const ProjectsPage = () => {
     setCurrentIndex((prev) => (prev - 1 + totalPages) % totalPages);
   };
 
-  const getCurrentProjects = () => {
-    const startIndex = currentIndex * projectsPerPage;
-    return projectsData.slice(startIndex, startIndex + projectsPerPage);
-  };
+
 
   const renderProjectCard = (project, index) => (
     <Card key={index} className={classes.projectCard}>

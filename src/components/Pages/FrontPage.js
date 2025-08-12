@@ -5,7 +5,6 @@ import {
   IconButton,
   Fab,
   Hidden,
-  Button,
   makeStyles,
 } from "@material-ui/core";
 import backgroundImage from "./../../images/background.gif";

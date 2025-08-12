@@ -7,7 +7,6 @@ import {
   ListItem,
   ListItemText,
   ListItemIcon,
-  Hidden,
   makeStyles,
 } from "@material-ui/core";
 import theme from "./../../theme/theme";
