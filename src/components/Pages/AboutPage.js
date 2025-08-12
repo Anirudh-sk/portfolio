@@ -12,7 +12,7 @@ const AboutPage = () => {
       ...styles.columnDiv,
     },
     mainDiv: {
-      background: "linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%)",
+      background: "linear-gradient(135deg, #0f0f23 0%, #1a1a2e 100%)",
       padding: "4rem 0",
       minHeight: "100vh",
       display: "flex",
@@ -35,12 +35,12 @@ const AboutPage = () => {
         width: "90%",
       },
       margin: "0 auto",
-      backgroundColor: "rgba(255, 255, 255, 0.9)",
+      backgroundColor: "rgba(26, 26, 46, 0.9)",
       borderRadius: "20px",
       padding: "3rem",
-      boxShadow: "0 20px 60px rgba(0, 0, 0, 0.1)",
+      boxShadow: "0 20px 60px rgba(0, 0, 0, 0.3)",
       backdropFilter: "blur(10px)",
-      border: "1px solid rgba(255, 255, 255, 0.2)",
+      border: "1px solid rgba(255, 255, 255, 0.1)",
     },
     headerText: {
       fontSize: "2.5rem",
@@ -61,7 +61,7 @@ const AboutPage = () => {
     },
     bodyText: {
       fontSize: "1.1rem",
-      color: "#4a5568",
+      color: "#e2e8f0",
       maxWidth: "100%",
       lineHeight: "1.8",
       marginBottom: "2rem",
@@ -87,7 +87,7 @@ const AboutPage = () => {
       margin: "2rem auto",
       display: "block",
       boxShadow: "0 20px 40px rgba(0, 0, 0, 0.15)",
-      border: "4px solid rgba(255, 255, 255, 0.8)",
+      border: "4px solid rgba(255, 255, 255, 0.2)",
       transition: "all 0.3s ease",
       "&:hover": {
         transform: "scale(1.05)",

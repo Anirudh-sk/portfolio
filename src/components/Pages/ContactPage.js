@@ -17,7 +17,7 @@ import * as styles from "../../theme/commonStyles";
 const ContactPage = () => {
   const useStyles = makeStyles({
     mainDiv: {
-      backgroundColor: "rgba(0, 0, 0, 0.92)",
+      backgroundColor: "#0f0f23",
       position: "relative",
       bottom: "0",
       marginTop: "5rem",

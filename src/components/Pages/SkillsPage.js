@@ -18,7 +18,7 @@ const SkillsPage = () => {
       ...styles.columnDiv,
     },
     mainDiv: {
-      background: "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+      background: "linear-gradient(135deg, #0f0f23 0%, #1a1a2e 100%)",
       margin: "0 auto",
       padding: "4rem 0",
       minHeight: "100vh",
@@ -167,20 +167,27 @@ const SkillsPage = () => {
         </Typography>
         <Divider classes={{ root: classes.divider }} />
         
-        {/* Product Management Skills Section */}
-        <Typography className={classes.sectionHeaderText}>
-          Product Management Skills
-        </Typography>
-        <Box className={classes.skillCard}>
-          {renderSkillsList(productManagementSkills)}
-        </Box>
+        {/* Skills Cards Container */}
+        <Box className={classes.skillsGrid}>
+          {/* Product Management Skills Section */}
+          <Box>
+            <Typography className={classes.sectionHeaderText}>
+              Product Management Skills
+            </Typography>
+            <Box className={classes.skillCard}>
+              {renderSkillsList(productManagementSkills)}
+            </Box>
+          </Box>
 
-        {/* Technical Skills Section */}
-        <Typography className={classes.sectionHeaderText}>
-          Technical Skills
-        </Typography>
-        <Box className={classes.skillCard}>
-          {renderSkillsList(technicalSkills)}
+          {/* Technical Skills Section */}
+          <Box>
+            <Typography className={classes.sectionHeaderText}>
+              Technical Skills
+            </Typography>
+            <Box className={classes.skillCard}>
+              {renderSkillsList(technicalSkills)}
+            </Box>
+          </Box>
         </Box>
       </Box>
     </Box>

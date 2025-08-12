@@ -8,7 +8,7 @@ const Footer = () => {
       justifyContent: "center",
       alignItems: "center",
       padding: "0.2rem",
-      backgroundColor: "rgba(0, 0, 0, 0.85)",
+      backgroundColor: "#0f0f23",
     },
     text: {
       color: "#eeeeee",

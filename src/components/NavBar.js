@@ -26,11 +26,11 @@ const NavBar = () => {
     appBar: {
       background: "primary",
       color: "white",
-      backgroundColor:"#242B2E"
+      backgroundColor:"#0f0f23"
     },
     drawerPaper: {
       width: "60%",
-      backgroundColor: "#242B2E",
+      backgroundColor: "#0f0f23",
       color: "white",
     },
     button: {
