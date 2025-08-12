@@ -6,6 +6,7 @@ import "./App.css";
 import NavBar from "./components/NavBar";
 import FrontPage from "./components/Pages/FrontPage";
 import AboutPage from "./components/Pages/AboutPage";
+import ProjectsPage from "./components/Pages/ProjectsPage";
 import ContactPage from "./components/Pages/ContactPage";
 import Footer from "./components/Footer";
 import theme from "./theme/theme";
@@ -15,6 +16,7 @@ const website = (
     <NavBar />
     <FrontPage />
     <AboutPage />
+    <ProjectsPage />
     <ContactPage />
     <Footer />
   </div>

@@ -19,50 +19,99 @@ const SkillsPage = () => {
       ...styles.columnDiv,
     },
     mainDiv: {
-      backgroundColor: "#e8e8e8",
+      background: "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
       margin: "0 auto",
-      paddingBottom: "1rem",
+      padding: "4rem 0",
+      minHeight: "100vh",
+    },
+    contentContainer: {
+      maxWidth: "1200px",
+      margin: "0 auto",
+      padding: "0 2rem",
     },
     rowDiv: {
       ...styles.rowDiv,
     },
     rowDivider: {
-      width: "80%",
-      [theme.breakpoints.down("sm")]: {
-        width: "95%",
-      },
+      width: "100%",
+      maxWidth: "1000px",
+      margin: "0 auto",
     },
     divider: {
-      ...styles.divider,
+      background: "rgba(255, 255, 255, 0.3)",
+      height: "0.2rem",
+      width: "12rem",
+      margin: "0 auto 3rem",
+      borderRadius: "2px",
     },
     headerText: {
-      ...styles.headerText,
+      fontSize: "2.5rem",
+      fontWeight: "700",
+      color: "white",
+      textAlign: "center",
+      marginBottom: "1rem",
+      textShadow: "0 4px 8px rgba(0, 0, 0, 0.3)",
     },
     sectionHeaderText: {
-      fontSize: "1.8rem",
-      fontWeight: "bold",
-      color: "#333",
-      marginTop: "2rem",
-      marginBottom: "1rem",
+      fontSize: "2rem",
+      fontWeight: "600",
+      color: "white",
+      textAlign: "center",
+      marginTop: "3rem",
+      marginBottom: "2rem",
+      textShadow: "0 2px 4px rgba(0, 0, 0, 0.3)",
     },
     skillsText: {
       marginTop: "2rem",
     },
+    skillsGrid: {
+      display: "grid",
+      gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))",
+      gap: "2rem",
+      marginBottom: "2rem",
+      [theme.breakpoints.down("sm")]: {
+        gridTemplateColumns: "1fr",
+        gap: "1rem",
+      },
+    },
+    skillCard: {
+      backgroundColor: "rgba(255, 255, 255, 0.1)",
+      borderRadius: "16px",
+      padding: "2rem",
+      backdropFilter: "blur(10px)",
+      border: "1px solid rgba(255, 255, 255, 0.2)",
+      transition: "all 0.3s ease",
+      "&:hover": {
+        transform: "translateY(-5px)",
+        backgroundColor: "rgba(255, 255, 255, 0.15)",
+        boxShadow: "0 20px 40px rgba(0, 0, 0, 0.2)",
+      },
+    },
     listItemText: {
-      color: "black",
-      fontSize: "1.2rem",
-      margin: "0 1rem",
+      color: "white",
+      fontSize: "1.1rem",
+      fontWeight: "500",
     },
     icon: {
-      color: "black",
+      color: "white",
       fontSize: "2rem",
+      filter: "drop-shadow(0 2px 4px rgba(0, 0, 0, 0.3))",
+    },
+    listItem: {
+      padding: "0.5rem 0",
+      borderRadius: "8px",
+      transition: "all 0.3s ease",
+      "&:hover": {
+        backgroundColor: "rgba(255, 255, 255, 0.1)",
+        transform: "translateX(5px)",
+      },
     },
   });
   const classes = useStyles();
 
   const technicalSkillsColumn1 = (
     <div>
-      <ListItem>
+      <ListItem className={classes.listItem}>
         <ListItemIcon className={classes.icon}>
           <span
             className="iconify"
@@ -76,7 +125,7 @@ const SkillsPage = () => {
           classes={{ primary: classes.listItemText }}
         />
       </ListItem>
-      <ListItem>
+      <ListItem className={classes.listItem}>
         <ListItemIcon className={classes.icon}>
           <span
             className="iconify"
@@ -90,7 +139,7 @@ const SkillsPage = () => {
           classes={{ primary: classes.listItemText }}
         />
       </ListItem>
-      <ListItem>
+      <ListItem className={classes.listItem}>
         <ListItemIcon className={classes.icon}>
           <span
             className="iconify"
@@ -104,7 +153,7 @@ const SkillsPage = () => {
           classes={{ primary: classes.listItemText }}
         />
       </ListItem>
-      <ListItem>
+      <ListItem className={classes.listItem}>
         <ListItemIcon className={classes.icon}>
           <span
             className="iconify"
@@ -118,7 +167,7 @@ const SkillsPage = () => {
           classes={{ primary: classes.listItemText }}
         />
       </ListItem>
-      <ListItem>
+      <ListItem className={classes.listItem}>
         <ListItemIcon className={classes.icon}>
           <span
             className="iconify"
@@ -132,7 +181,7 @@ const SkillsPage = () => {
           classes={{ primary: classes.listItemText }}
         />
       </ListItem>
-      <ListItem>
+      <ListItem className={classes.listItem}>
         <ListItemIcon className={classes.icon}>
           <span
             className="iconify"
@@ -149,295 +198,79 @@ const SkillsPage = () => {
     </div>
   );
 
-  const technicalSkillsColumn2 = (
-    <div>
-      <ListItem>
-        <ListItemIcon className={classes.icon}>
-          <span
-            className="iconify"
-            data-icon="cib:mongodb"
-            data-inline="false"
-            style={{ fontSize: "2rem" }}
-          />
-        </ListItemIcon>
-        <ListItemText
-          primary="MongoDB"
-          classes={{ primary: classes.listItemText }}
-        />
-      </ListItem>
-      <ListItem>
-        <ListItemIcon className={classes.icon}>
-          <span
-            className="iconify"
-            data-icon="bx:bxl-c-plus-plus"
-            data-inline="false"
-            style={{ fontSize: "2rem" }}
-          />
-        </ListItemIcon>
-        <ListItemText
-          primary="C++"
-          classes={{ primary: classes.listItemText }}
-        />
-      </ListItem>
-      <ListItem>
-        <ListItemIcon className={classes.icon}>
-          <span
-            className="iconify"
-            data-icon="bx:bxl-firebase"
-            data-inline="false"
-            style={{ fontSize: "2rem" }}
-          />
-        </ListItemIcon>
-        <ListItemText
-          primary="Firebase"
-          classes={{ primary: classes.listItemText }}
-        />
-      </ListItem>
-      <ListItem>
-        <ListItemIcon className={classes.icon}>
-          <span
-            className="iconify"
-            data-icon="bx:bxl-nodejs"
-            data-inline="false"
-            style={{ fontSize: "2rem" }}
-          />
-        </ListItemIcon>
-        <ListItemText
-          primary="Node.js"
-          classes={{ primary: classes.listItemText }}
-        />
-      </ListItem>
-      <ListItem>
-        <ListItemIcon className={classes.icon}>
-          <span
-            className="iconify"
-            data-icon="cib:flutter"
-            data-inline="false"
-            style={{ fontSize: "2rem" }}
-          />
-        </ListItemIcon>
-        <ListItemText
-          primary="Flutter"
-          classes={{ primary: classes.listItemText }}
-        />
-      </ListItem>
-      <ListItem>
-        <ListItemIcon className={classes.icon}>
-          <span
-            className="iconify"
-            data-icon="teenyicons:c-solid"
-            data-inline="false"
-            style={{ fontSize: "2.2rem" }}
-          />
-        </ListItemIcon>
-        <ListItemText primary="C" classes={{ primary: classes.listItemText }} />
-      </ListItem>
-    </div>
-  );
+  const technicalSkills = [
+    { icon: "mdi:web", name: "Web Development" },
+    { icon: "simple-icons:python", name: "Python" },
+    { icon: "carbon:machine-learning", name: "Machine Learning" },
+    { icon: "carbon:ai-results", name: "Artificial Intelligence" },
+    { icon: "fluent:chat-bubbles-question-20-filled", name: "Large Language Models" },
+    { icon: "mdi:chart-line", name: "Data Analytics" },
+    { icon: "cib:mongodb", name: "MongoDB" },
+    { icon: "bx:bxl-c-plus-plus", name: "C++" },
+    { icon: "bx:bxl-firebase", name: "Firebase" },
+    { icon: "bx:bxl-nodejs", name: "Node.js" },
+    { icon: "cib:flutter", name: "Flutter" },
+    { icon: "teenyicons:c-solid", name: "C" },
+  ];
 
-  const productManagementSkillsColumn1 = (
-    <div>
-      <ListItem>
-        <ListItemIcon className={classes.icon}>
-          <span
-            className="iconify"
-            data-icon="simple-icons:notion"
-            data-inline="false"
-            style={{ fontSize: "2rem" }}
-          />
-        </ListItemIcon>
-        <ListItemText
-          primary="Notion"
-          classes={{ primary: classes.listItemText }}
-        />
-      </ListItem>
-      <ListItem>
-        <ListItemIcon className={classes.icon}>
-          <span
-            className="iconify"
-            data-icon="simple-icons:jira"
-            data-inline="false"
-            style={{ fontSize: "2rem" }}
-          />
-        </ListItemIcon>
-        <ListItemText
-          primary="Jira"
-          classes={{ primary: classes.listItemText }}
-        />
-      </ListItem>
+  const productManagementSkills = [
+    { icon: "simple-icons:notion", name: "Notion" },
+    { icon: "simple-icons:jira", name: "Jira" },
+    { icon: "mdi:chart-gantt", name: "Agile/Scrum" },
+    { icon: "carbon:data-analytics", name: "Data Analytics" },
+    { icon: "mdi:strategy", name: "Product Strategy" },
+    { icon: "mdi:microsoft-excel", name: "Excel/Sheets" },
+    { icon: "carbon:roadmap", name: "Roadmapping" },
+    { icon: "mdi:account-group", name: "Stakeholder Mgmt" },
+    { icon: "mdi:chart-box-outline", name: "User Research" },
+    { icon: "carbon:machine-learning", name: "A/B Testing" },
+  ];
 
-      <ListItem>
-        <ListItemIcon className={classes.icon}>
-          <span
-            className="iconify"
-            data-icon="mdi:chart-gantt"
-            data-inline="false"
-            style={{ fontSize: "2rem" }}
+  const renderSkillsList = (skills) => (
+    <List>
+      {skills.map((skill, index) => (
+        <ListItem key={index} className={classes.listItem}>
+          <ListItemIcon className={classes.icon}>
+            <span
+              className="iconify"
+              data-icon={skill.icon}
+              data-inline="false"
+              style={{ fontSize: "2rem" }}
+            />
+          </ListItemIcon>
+          <ListItemText
+            primary={skill.name}
+            classes={{ primary: classes.listItemText }}
           />
-        </ListItemIcon>
-        <ListItemText
-          primary="Agile/Scrum"
-          classes={{ primary: classes.listItemText }}
-        />
-      </ListItem>
-      <ListItem>
-        <ListItemIcon className={classes.icon}>
-          <span
-            className="iconify"
-            data-icon="carbon:data-analytics"
-            data-inline="false"
-            style={{ fontSize: "2rem" }}
-          />
-        </ListItemIcon>
-        <ListItemText
-          primary="Data Analytics"
-          classes={{ primary: classes.listItemText }}
-        />
-      </ListItem>
-      <ListItem>
-        <ListItemIcon className={classes.icon}>
-          <span
-            className="iconify"
-            data-icon="mdi:strategy"
-            data-inline="false"
-            style={{ fontSize: "2rem" }}
-          />
-        </ListItemIcon>
-        <ListItemText
-          primary="Product Strategy"
-          classes={{ primary: classes.listItemText }}
-        />
-      </ListItem>
-    </div>
-  );
-
-  const productManagementSkillsColumn2 = (
-    <div>
-      <ListItem>
-        <ListItemIcon className={classes.icon}>
-          <span
-            className="iconify"
-            data-icon="mdi:microsoft-excel"
-            data-inline="false"
-            style={{ fontSize: "2rem" }}
-          />
-        </ListItemIcon>
-        <ListItemText
-          primary="Excel/Sheets"
-          classes={{ primary: classes.listItemText }}
-        />
-      </ListItem>
-
-      <ListItem>
-        <ListItemIcon className={classes.icon}>
-          <span
-            className="iconify"
-            data-icon="carbon:roadmap"
-            data-inline="false"
-            style={{ fontSize: "2rem" }}
-          />
-        </ListItemIcon>
-        <ListItemText
-          primary="Roadmapping"
-          classes={{ primary: classes.listItemText }}
-        />
-      </ListItem>
-      <ListItem>
-        <ListItemIcon className={classes.icon}>
-          <span
-            className="iconify"
-            data-icon="mdi:account-group"
-            data-inline="false"
-            style={{ fontSize: "2rem" }}
-          />
-        </ListItemIcon>
-        <ListItemText
-          primary="Stakeholder Mgmt"
-          classes={{ primary: classes.listItemText }}
-        />
-      </ListItem>
-      <ListItem>
-        <ListItemIcon className={classes.icon}>
-          <span
-            className="iconify"
-            data-icon="mdi:chart-box-outline"
-            data-inline="false"
-            style={{ fontSize: "2rem" }}
-          />
-        </ListItemIcon>
-        <ListItemText
-          primary="User Research"
-          classes={{ primary: classes.listItemText }}
-        />
-      </ListItem>
-      <ListItem>
-        <ListItemIcon className={classes.icon}>
-          <span
-            className="iconify"
-            data-icon="carbon:machine-learning"
-            data-inline="false"
-            style={{ fontSize: "2rem" }}
-          />
-        </ListItemIcon>
-        <ListItemText
-          primary="A/B Testing"
-          classes={{ primary: classes.listItemText }}
-        />
-      </ListItem>
-    </div>
+        </ListItem>
+      ))}
+    </List>
   );
 
   return (
     <Box className={`${classes.columnDiv} ${classes.mainDiv}`}>
-      <Typography
-        className={`${classes.skillsText} ${classes.headerText}`}
-        align="center"
-      >
-        My Skills 
-      </Typography>
-      <Divider classes={{ root: classes.divider }} />
-      
-      {/* Product Management Skills Section */}
-      <Typography
-        className={classes.sectionHeaderText}
-        align="center"
-      >
-        Product Management Skills
-      </Typography>
-      <Box className={`${classes.rowDiv} ${classes.rowDivider}`}>
-        <Box className={classes.columnDiv}>
-          <List>
-            {productManagementSkillsColumn1}
-            <Hidden mdUp>{productManagementSkillsColumn2}</Hidden>
-          </List>
+      <Box className={classes.contentContainer}>
+        <Typography className={classes.headerText}>
+          My Skills 
+        </Typography>
+        <Divider classes={{ root: classes.divider }} />
+        
+        {/* Product Management Skills Section */}
+        <Typography className={classes.sectionHeaderText}>
+          Product Management Skills
+        </Typography>
+        <Box className={classes.skillCard}>
+          {renderSkillsList(productManagementSkills)}
         </Box>
-        <Hidden smDown>
-          <Box className={classes.columnDiv}>
-            <List>{productManagementSkillsColumn2}</List>
-          </Box>
-        </Hidden>
-      </Box>
-            {/* Technical Skills Section */}
-      <Typography
-        className={classes.sectionHeaderText}
-        align="center"
-      >
-        Technical Skills
-      </Typography>
-      <Box className={`${classes.rowDiv} ${classes.rowDivider}`}>
-        <Box className={classes.columnDiv}>
-          <List>
-            {technicalSkillsColumn1}
-            <Hidden mdUp>{technicalSkillsColumn2}</Hidden>
-          </List>
-        </Box>
-        <Hidden smDown>
-          <Box className={classes.columnDiv}>
-            <List>{technicalSkillsColumn2}</List>
-          </Box>
-        </Hidden>
-      </Box>
 
+        {/* Technical Skills Section */}
+        <Typography className={classes.sectionHeaderText}>
+          Technical Skills
+        </Typography>
+        <Box className={classes.skillCard}>
+          {renderSkillsList(technicalSkills)}
+        </Box>
+      </Box>
     </Box>
   );
 };

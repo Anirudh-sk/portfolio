@@ -83,6 +83,9 @@ const NavBar = () => {
       <Button className={classes.button} onClick={() => scrollTo("AboutMe")}>
         About Me
       </Button>
+      <Button className={classes.button} onClick={() => scrollTo("Projects")}>
+        Projects
+      </Button>
       <Button className={classes.button} href={PDF}>
         Resume
       </Button>
@@ -107,7 +110,7 @@ const NavBar = () => {
         }}
       >
         <List onClick={handleDrawerToggle}>
-          {["ABOUT ME", "CONTACT"].map((text, index) => (
+          {["ABOUT ME", "PROJECTS", "CONTACT"].map((text, index) => (
             <ListItem
               button
               component="a"

@@ -12,6 +12,13 @@ const AboutPage = () => {
       ...styles.columnDiv,
     },
     mainDiv: {
+      background: "linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%)",
+      padding: "4rem 0",
+      minHeight: "100vh",
+      display: "flex",
+      alignItems: "center",
+    },
+    contentContainer: {
       [theme.breakpoints.down("xl")]: {
         width: "45%",
       },
@@ -28,51 +35,72 @@ const AboutPage = () => {
         width: "90%",
       },
       margin: "0 auto",
+      backgroundColor: "rgba(255, 255, 255, 0.9)",
+      borderRadius: "20px",
+      padding: "3rem",
+      boxShadow: "0 20px 60px rgba(0, 0, 0, 0.1)",
+      backdropFilter: "blur(10px)",
+      border: "1px solid rgba(255, 255, 255, 0.2)",
     },
     headerText: {
-      ...styles.headerText,
-    },
-    aboutText: {
-      marginTop: "6rem",
+      fontSize: "2.5rem",
+      fontWeight: "700",
+      marginBottom: "1rem",
+      background: "linear-gradient(45deg, #667eea 30%, #764ba2 90%)",
+      WebkitBackgroundClip: "text",
+      WebkitTextFillColor: "transparent",
+      backgroundClip: "text",
+      textAlign: "center",
     },
     divider: {
-      ...styles.divider,
+      background: "linear-gradient(45deg, #667eea 30%, #764ba2 90%)",
+      height: "0.2rem",
+      width: "12rem",
+      margin: "0 auto 2rem",
+      borderRadius: "2px",
     },
     bodyText: {
       fontSize: "1.1rem",
-      color: "black",
+      color: "#4a5568",
       maxWidth: "100%",
-      maxHeight: "100%",
-      margin: "1rem",
-      lineHeight: "1.6rem",
+      lineHeight: "1.8",
+      marginBottom: "2rem",
+      textAlign: "left",
     },
     link: {
-      color: "black",
-      textShadow: "1px 1px #b2dfdb",
+      color: "#667eea",
       textDecoration: "none",
-      borderBottom: "1px solid #b2dfdb",
+      fontWeight: "600",
+      borderBottom: "2px solid transparent",
+      transition: "all 0.3s ease",
       "&:hover": {
-        color: "#b2dfdb",
+        color: "#764ba2",
+        borderBottom: "2px solid #764ba2",
         cursor: "pointer",
       },
     },
     picture: {
-      maxHeight: "100%",
-      maxWidth: "100%",
-      margin: "1rem",
-      borderRadius: 30,
-      marginBottom: "6rem",
-      width: "40%",
+      width: "280px",
+      height: "280px",
+      objectFit: "cover",
+      borderRadius: "50%",
+      margin: "2rem auto",
+      display: "block",
+      boxShadow: "0 20px 40px rgba(0, 0, 0, 0.15)",
+      border: "4px solid rgba(255, 255, 255, 0.8)",
+      transition: "all 0.3s ease",
+      "&:hover": {
+        transform: "scale(1.05)",
+        boxShadow: "0 25px 50px rgba(0, 0, 0, 0.2)",
+      },
       [theme.breakpoints.down("md")]: {
-        width: "50%",
+        width: "240px",
+        height: "240px",
       },
       [theme.breakpoints.down("sm")]: {
-        width: "60%",
+        width: "200px",
+        height: "200px",
       },
-      [theme.breakpoints.down("xs")]: {
-        width: "70%",
-      },
-      boxShadow: "8px 8px 12px rgba(0, 0, 0, 0.25)",
     },
   });
   const classes = useStyles();
@@ -84,44 +112,47 @@ const AboutPage = () => {
 
   return (
     <div>
-      <Box className={`${classes.columnDiv} ${classes.mainDiv}`} id="AboutMe">
-        <Typography className={`${classes.aboutText} ${classes.headerText}`}>
-          About Me
-        </Typography>
-        <Divider classes={{ root: classes.divider }} />
-        <Typography className={classes.bodyText}>
-          My name is <b>K Sai Anirudh</b><br /><br />
-          I'm a <b>Technical Product Manager</b> specializing in <b>0-to-1 product development</b> and scaling solutions
-          that drive real business impact. With a strong engineering background, I excel at building products from initial
-          concept through successful launch and growth.<br /><br />
+      <Box className={classes.mainDiv} id="AboutMe">
+        <Box className={`${classes.columnDiv} ${classes.contentContainer}`}>
+          <Typography className={classes.headerText}>
+            About Me
+          </Typography>
+          <Divider classes={{ root: classes.divider }} />
+          
+          <Box
+            component="img"
+            src={picture}
+            alt="A picture of me"
+            className={classes.picture}
+          />
+          
+          <Typography className={classes.bodyText}>
+            My name is <b>K Sai Anirudh</b><br /><br />
+            I'm a <b>Technical Product Manager</b> specializing in <b>0-to-1 product development</b> and scaling solutions
+            that drive real business impact. With a strong engineering background, I excel at building products from initial
+            concept through successful launch and growth.<br /><br />
 
-          <b>What I bring:</b><br />
-          • <b>End-to-end product ownership</b> — from user research and strategy to technical architecture decisions<br />
-          • <b>Cross-functional team leadership</b> — aligning engineering, design, and business stakeholders<br />
-          • <b>Scalable system design</b> — including patent-pending architecture focused on performance and data privacy<br />
-          • <b>Technical trade-off expertise</b> — making informed decisions between speed, quality, and technical debt<br /><br />
+            <b>What I bring:</b><br />
+            • <b>End-to-end product ownership</b> — from user research and strategy to technical architecture decisions<br />
+            • <b>Cross-functional team leadership</b> — aligning engineering, design, and business stakeholders<br />
+            • <b>Scalable system design</b> — including patent-pending architecture focused on performance and data privacy<br />
+            • <b>Technical trade-off expertise</b> — making informed decisions between speed, quality, and technical debt<br /><br />
 
-          I thrive at the intersection of technical feasibility and user needs, turning complex problems into elegant solutions.
-          My hands-on development experience allows me to work seamlessly with engineering teams while maintaining a sharp
-          focus on business outcomes and user experience. I'm passionate about building products that solve real problems
-          and create lasting value.
-          {" "}
-          <Link
-            onClick={scrollToContact}
-            className={classes.link}
-            underline="none"
-          >
-            Let's connect
-          </Link>
-          .
-        </Typography>
-
-        <Box
-          component="img"
-          src={picture}
-          alt="A picture of me"
-          className={classes.picture}
-        />
+            I thrive at the intersection of technical feasibility and user needs, turning complex problems into elegant solutions.
+            My hands-on development experience allows me to work seamlessly with engineering teams while maintaining a sharp
+            focus on business outcomes and user experience. I'm passionate about building products that solve real problems
+            and create lasting value.
+            {" "}
+            <Link
+              onClick={scrollToContact}
+              className={classes.link}
+              underline="none"
+            >
+              Let's connect
+            </Link>
+            .
+          </Typography>
+        </Box>
       </Box>
       <SkillsPage />
     </div>
