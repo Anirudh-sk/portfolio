@@ -14,7 +14,7 @@ import {
   useMediaQuery,
 } from "@material-ui/core";
 import { ArrowBack, ArrowForward, Launch, Code } from "@material-ui/icons";
-import theme from "../../theme/theme";
+
 import * as styles from "../../theme/commonStyles";
 import projectsData from "../../updated_projects.json";
 
