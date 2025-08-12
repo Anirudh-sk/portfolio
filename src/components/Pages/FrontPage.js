@@ -182,7 +182,7 @@ const FrontPage = () => {
           <br />
           Building products that solve real problems
         </Typography>
-        
+
         <Box className={classes.ctaContainer}>
           <button
             className={`${classes.ctaButton} ${classes.primaryCta}`}
