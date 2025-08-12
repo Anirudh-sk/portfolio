@@ -72,10 +72,17 @@ const ProjectsPage = () => {
       transition: "all 0.3s ease",
       background: "linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%)",
       border: "1px solid rgba(255, 255, 255, 0.2)",
+      overflow: "hidden",
       "&:hover": {
         transform: "translateY(-8px)",
         boxShadow: "0 16px 48px rgba(0, 0, 0, 0.15)",
       },
+    },
+    projectImage: {
+      width: "100%",
+      height: "200px",
+      objectFit: "cover",
+      display: "block",
     },
     cardContent: {
       padding: "1.5rem",
@@ -209,6 +216,13 @@ const ProjectsPage = () => {
 
   const renderProjectCard = (project, index) => (
     <Card key={index} className={classes.projectCard}>
+      {project.projectImage && (
+        <img
+          src={`${process.env.PUBLIC_URL}/${project.projectImage}`}
+          alt={project.title}
+          className={classes.projectImage}
+        />
+      )}
       <CardContent className={classes.cardContent}>
         <Typography className={classes.projectTitle}>
           {project.title}

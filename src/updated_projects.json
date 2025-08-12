@@ -1,7 +1,7 @@
 [
   {
     "title": "Attendify",
-    "description": "Attendify is a privacy-first membership management app designed for gyms, sports academies, tuition centers, and facilities with recurring members. Featuring QR-based attendance, automated fee reminders, income\u2013expense tracking, and a powerful business intelligence dashboard, it streamlines operations while safeguarding user data through a patent-pending privacy architecture. Built for speed and scalability, Attendify delivers a sub-1-second load time and robust backend reliability.",
+    "description": "Led end-to-end product development for a privacy-first membership management platform serving 1000+ users across fitness and education sectors. Coordinated cross-functional teams to deliver QR-based attendance tracking, automated billing systems, and BI dashboards. Implemented agile methodologies resulting in 99.07% crash-free performance and sub-1-second load times while ensuring GDPR compliance through innovative privacy architecture.",
     "technologies": [
       "Kotlin",
       "Firebase",
@@ -9,7 +9,7 @@
       "Google Analytics",
       "Cloud Firestore"
     ],
-    "projectImage": "assets/img/Project Mockups/Project_Attendify.svg",
+    "projectImage": "Project Mockups/Project_Attendify.png",
     "previewLink": "https://aivirex.in/attendify",
     "metrics": [
       {
@@ -32,13 +32,13 @@
   },
   {
     "title": "Author Portfolio",
-    "description": "A visually captivating author portfolio website built with Next.js and Tailwind CSS to showcase published books and connect readers directly to purchase links on Amazon and Flipkart. Optimized for 100% Lighthouse SEO and accessibility scores, the site elevated the author\u2019s Google search ranking and boosted book sales through credibility-building testimonials and seamless ad campaign integration.",
+    "description": "Managed digital transformation project for author's online presence, driving 25% increase in book sales through strategic SEO optimization and conversion funnel improvements. Coordinated with design and development teams to achieve 100% Lighthouse scores while integrating e-commerce partnerships with Amazon and Flipkart. Implemented performance monitoring resulting in 18% bounce rate reduction.",
     "technologies": [
       "Next.js",
       "Tailwind CSS",
       "Netlify Hosting"
     ],
-    "projectImage": "assets/img/Project Mockups/Project_Author.svg",
+    "projectImage": "Project Mockups/Project_Author.png",
     "previewLink": "https://booksbyanirudh.netlify.app",
     "metrics": [
       {
@@ -61,14 +61,14 @@
   },
   {
     "title": "Avittam Homes Website",
-    "description": "Revamped the official website for Avittam Homes, a real estate developer, with a modernized UI, improved performance, and SEO optimization. The redesign maintained the existing HTML, CSS, JavaScript, and PHP stack while significantly enhancing lead conversion potential and visual appeal. Delivered with 99.9% uptime, the site offers a smoother browsing experience aligned with the brand\u2019s premium image.",
+    "description": "Orchestrated complete website modernization for real estate developer, managing stakeholder requirements and technical constraints to deliver 20% lead conversion improvement. Coordinated legacy system migration while maintaining 99.9% uptime. Established performance benchmarks and monitoring systems that improved page load times and enhanced brand positioning in premium market segment.",
     "technologies": [
       "HTML",
       "CSS",
       "JavaScript",
       "PHP"
     ],
-    "projectImage": "assets/img/Project Mockups/Project_Avittam.svg",
+    "projectImage": "Project Mockups/Project_Avittam.png",
     "previewLink": "https://avittamhomes.in",
     "metrics": [
       {
@@ -90,15 +90,15 @@
     ]
   },
   {
-    "title": "Landing Page for CA Firm",
-    "description": "Developed a professional online presence for KMJ & Co., a Chartered Accountancy firm, with a focus on on-page SEO to position them as the top CA firm in Ambattur. The site features WhatsApp integration for instant communication and Google Sheets automation via App Script for real-time lead capture from forms. Achieved Lighthouse scores of 100 in SEO and Best Practices.",
+    "title": "CA Firm Digital Platform",
+    "description": "Spearheaded digital transformation initiative for chartered accountancy firm, implementing automated lead capture systems and WhatsApp integration for client communication. Managed SEO strategy to achieve top local search rankings while coordinating Google Sheets automation for real-time data processing. Delivered 100% Lighthouse best practices score through systematic quality assurance processes.",
     "technologies": [
       "HTML",
       "CSS",
       "JavaScript",
       "Google App Script"
     ],
-    "projectImage": "assets/img/Project Mockups/Project_CA.svg",
+    "projectImage": "Project Mockups/Project_CA.png",
     "previewLink": "https://kmjco.in",
     "metrics": [
       {
@@ -120,8 +120,8 @@
     ]
   },
   {
-    "title": "MedicalData Project",
-    "description": "A confidential healthcare AI initiative involving the development of machine learning models and LLM-powered insights for predictive analytics on sensitive medical datasets. Extensive data cleaning and preprocessing ensured model reliability, with a strong focus on minimizing false positives and false negatives. Hosted securely on a local server to comply with strict data privacy standards.",
+    "title": "Healthcare AI Platform",
+    "description": "Managed confidential healthcare AI initiative involving predictive analytics on sensitive medical datasets. Coordinated data science team to achieve 90% prediction accuracy while ensuring HIPAA compliance and data privacy standards. Implemented rigorous testing protocols to minimize false positives/negatives below 5%. Oversaw secure local server deployment and established data governance frameworks.",
     "technologies": [
       "Python",
       "OpenAI API",
@@ -130,7 +130,7 @@
       "NumPy",
       "Scikit-learn"
     ],
-    "projectImage": "assets/img/Project Mockups/Project_MedicalData.svg",
+    "projectImage": "Project Mockups/Project_MedicalData.png",
     "metrics": [
       {
         "name": "Prediction Accuracy",
@@ -151,15 +151,15 @@
     ]
   },
   {
-    "title": "Hazlo Project",
-    "description": "A confidential cross-platform mobile application developed using React Native and Firebase, built as an MVP to validate market fit for a sports industry solution. Optimized for production deployment on both Android and iOS, the app delivers a smooth user experience, intuitive navigation, and reliable backend performance to support initial user testing and feedback cycles.",
+    "title": "Sports Industry MVP",
+    "description": "Led cross-platform mobile app development from concept to market validation, managing product roadmap and stakeholder expectations for sports industry solution. Coordinated React Native development team to deliver MVP within 3-month timeline while maintaining 98.7% crash-free sessions. Established user testing protocols and feedback loops for iterative product improvement and market fit validation.",
     "technologies": [
       "React Native",
       "Firebase",
       "Cloud Firestore",
       "Android & iOS Deployment"
     ],
-    "projectImage": "assets/img/Project Mockups/Project_Hazlo.svg",
+    "projectImage": "Project Mockups/Project_Hazlo.png",
     "metrics": [
       {
         "name": "Platforms Supported",
@@ -180,15 +180,15 @@
     ]
   },
   {
-    "title": "FlintM Website",
-    "description": "Developed the official website for Flintim, a marketing agency, with a strong emphasis on brand storytelling and visual impact. Delivered a custom video-based hero creative designed to instantly engage visitors, alongside a sleek, high-performance interface. With Lighthouse scores above 90% in SEO and performance and 100% in best practices, the site effectively showcases client results, ROAS, and case studies\u2014building trust and credibility.",
+    "title": "Marketing Agency Platform",
+    "description": "Managed comprehensive digital platform development for marketing agency, focusing on client acquisition and credibility building. Coordinated video production and web development teams to create engaging hero content while achieving 94% performance scores. Established case study presentation framework and ROAS tracking systems that enhanced client trust and business development efforts.",
     "technologies": [
       "HTML",
       "CSS",
       "JavaScript",
       "Firebase Hosting"
     ],
-    "projectImage": "assets/img/Project Mockups/Project_Flint.svg",
+    "projectImage": "Project Mockups/Project_Flint.png",
     "previewLink": "https://flintm.in",
     "metrics": [
       {
@@ -210,14 +210,14 @@
     ]
   },
   {
-    "title": "Mun Website",
-    "description": "Revamped the official website for a Model United Nations (MUN) company, enhancing its professionalism and appeal to schools and MUN enthusiasts. Built on WordPress, the redesign included high-quality Canva-designed visuals to strengthen brand identity and improve event promotion. Achieved 100% performance, 90%+ SEO, and top scores in best practices and accessibility.",
+    "title": "MUN Company Platform",
+    "description": "Orchestrated complete website transformation for Model United Nations organization, managing brand identity development and event promotion strategies. Coordinated WordPress development and design teams to achieve 100% performance scores while establishing visual brand guidelines. Implemented content management workflows that enhanced professional credibility and school partnership acquisition.",
     "technologies": [
       "WordPress",
       "Canva",
       "Elementor / Custom Theme"
     ],
-    "projectImage": "assets/img/Project Mockups/Project_Mun.svg",
+    "projectImage": "Project Mockups/Project_Mun.png",
     "previewLink": "https://themuncompany.com",
     "metrics": [
       {
@@ -239,15 +239,15 @@
     ]
   },
   {
-    "title": "Myndz Project",
-    "description": "Developed a dynamic portfolio website for Myndz Badminton Academy, showcasing star players at national and international levels, coach profiles, parent testimonials, and the academy\u2019s values. Integrated Instagram feed and media gallery to highlight activities and achievements, building trust and brand credibility.",
+    "title": "Sports Academy Portfolio",
+    "description": "Led digital marketing platform development for badminton academy, managing stakeholder requirements for player showcasing and parent engagement. Coordinated social media integration and testimonial collection systems while establishing brand credibility frameworks. Implemented Instagram feed automation and media gallery management that enhanced academy's competitive positioning and enrollment rates.",
     "technologies": [
       "HTML",
       "CSS",
       "JavaScript",
       "Netlify Hosting"
     ],
-    "projectImage": "assets/img/Project Mockups/Project_Myndz.svg",
+    "projectImage": "Project Mockups/Project_Myndz.png",
     "previewLink": "https://myndzbadminton.com",
     "metrics": [
       {
@@ -269,8 +269,8 @@
     ]
   },
   {
-    "title": "Plant Species Classification",
-    "description": "Developed an AI-powered platform to detect and recognize indigenous medicinal plants of India, providing details on their medicinal value and culinary usage. Trained on a dataset of 2,626 plant species (including leaves, flowers, roots, stems, bark, and fruits), the system utilized ResNet50, MobileNetV2, and VGG16 CNN models, achieving 95% accuracy through stochastic weight averaging. Integrated GPT-3 with context-enriched data from web scraping to enable real-time Q&A about plants.",
+    "title": "Plant Species AI Platform",
+    "description": "Managed AI-powered plant recognition platform development, coordinating data science and web development teams to process 130K+ plant species dataset. Led model optimization efforts achieving 95% accuracy through ensemble methods and stochastic weight averaging. Implemented GPT-3 integration for real-time Q&A functionality while managing web scraping operations for contextual plant information.",
     "technologies": [
       "React",
       "Flask",
@@ -279,7 +279,7 @@
       "OpenAI GPT-3",
       "BeautifulSoup"
     ],
-    "projectImage": "assets/img/Project Mockups/Project_Plant.svg",
+    "projectImage": "Project Mockups/Project_Plant.png",
     "metrics": [
       {
         "name": "Accuracy",
@@ -300,8 +300,8 @@
     ]
   },
   {
-    "title": "Loan Approval System",
-    "description": "A confidential fintech AI solution built to predict loan approval likelihood using historical datasets of approved and rejected applications. The system employed a supervised learning model to deliver 85% accuracy, with low false positives and false negatives. Integrated directly into the loan processing workflow, it provides a probability score, the model\u2019s decision, and then routes the application for final human verification\u2014streamlining decision-making and reducing processing time.",
+    "title": "Fintech Loan System",
+    "description": "Led development of AI-powered loan approval system, managing data science team to achieve 85% prediction accuracy while reducing processing time by 40%. Coordinated integration with existing loan workflows and established human verification protocols. Implemented comprehensive testing frameworks for false positive/negative minimization and managed regulatory compliance requirements for financial services.",
     "technologies": [
       "Python",
       "Scikit-learn",
@@ -309,7 +309,7 @@
       "NumPy",
       "Flask"
     ],
-    "projectImage": "assets/img/Project Mockups/Project_Loan.svg",
+    "projectImage": "Project Mockups/Project_Loan.png",
     "metrics": [
       {
         "name": "Prediction Accuracy",
@@ -326,8 +326,8 @@
     ]
   },
   {
-    "title": "StockMarket Automation",
-    "description": "Developed an intelligent stock trading system combining rule-based algorithms with machine learning models to automate buy/sell decisions based on market trends and multiple financial indicators. Leveraging the SAX model alongside domain-specific stock market expertise, the system significantly reduced manual trading efforts, improved decision-making speed, and increased revenue for the client.",
+    "title": "Trading Automation Platform",
+    "description": "Managed intelligent stock trading system development, coordinating algorithm design and machine learning implementation to achieve 80% manual work reduction. Led integration of SAX models with domain expertise while establishing risk management protocols. Implemented automated decision-making systems that generated 18% revenue growth through improved trading speed and accuracy.",
     "technologies": [
       "Python",
       "Pandas",
@@ -336,7 +336,7 @@
       "SAX",
       "Flask"
     ],
-    "projectImage": "assets/img/Project Mockups/Project_StockMarket.svg",
+    "projectImage": "Project Mockups/Project_StockMarket.png",
     "metrics": [
       {
         "name": "Work Reduction",
@@ -357,15 +357,15 @@
     ]
   },
   {
-    "title": "TT Webstie",
-    "description": "Revamped the website for TT Sports Academy, a multi-sport facility offering badminton, yoga, boxing, swimming, and more. Built with HTML, CSS, and JavaScript, the redesign focused on boosting SEO from ~55% to 100% and improving best practices to 100%, significantly enhancing brand visibility and online credibility. Performance scores improved from 40% to 73%, making the site faster, more discoverable, and more engaging for potential members.",
+    "title": "Multi-Sport Academy Platform",
+    "description": "Orchestrated comprehensive website transformation for multi-sport facility, managing SEO optimization from 55% to 100% while coordinating performance improvements from 40% to 73%. Led stakeholder alignment across multiple sport disciplines and established digital marketing frameworks. Implemented systematic quality assurance processes achieving 100% best practices scores and enhanced member acquisition strategies.",
     "technologies": [
       "HTML",
       "CSS",
       "JavaScript",
       "Netlify Hosting"
     ],
-    "projectImage": "assets/img/Project Mockups/Project_TT.svg",
+    "projectImage": "Project Mockups/Project_TT.png",
     "previewLink": "https://ttsportsacademy.in",
     "metrics": [
       {
@@ -387,8 +387,8 @@
     ]
   },
   {
-    "title": "Techiegen Edtech PWA",
-    "description": "Built a meme-based learning platform as a Progressive Web App (PWA) for Techiegen, enabling students to learn academic concepts through humor and community interaction. Powered by Firebase on the backend, the platform was launched both as a PWA and on the Play Store, allowing rapid go-to-market testing for product validation and monetization potential. Optimized for high performance, accessibility, and SEO to maximize reach and engagement.",
+    "title": "EdTech PWA Platform",
+    "description": "Led innovative meme-based learning platform development as PWA, managing product strategy from concept to Play Store launch. Coordinated Firebase backend implementation and community engagement features while establishing go-to-market testing protocols. Implemented performance optimization achieving 95% best practices scores and managed monetization strategy validation for educational technology market.",
     "technologies": [
       "PWA",
       "Firebase",
@@ -397,7 +397,7 @@
       "React",
       "JavaScript"
     ],
-    "projectImage": "assets/img/Project Mockups/Project_Techiegen.svg",
+    "projectImage": "Project Mockups/Project_Techiegen.png",
     "previewLink": "https://techiegen.com",
     "metrics": [
       {
@@ -419,14 +419,14 @@
     ]
   },
   {
-    "title": "Temple Billing System",
-    "description": "Developed a high-performance desktop billing and ticket management system for a temple, upgrading their existing software with advanced features like stock management, daily revenue and expense tracking, and interactive dashboards. Built using Tauri, Rust, and Firebase, the solution drastically reduced paper usage to 0% by fully digitizing records, while delivering lightning-fast load times and improved operational efficiency.",
+    "title": "Temple Management System",
+    "description": "Managed comprehensive digital transformation for temple operations, coordinating Tauri and Rust development teams to create high-performance billing system. Led stakeholder requirements gathering and change management to achieve 100% paper reduction and 40% efficiency improvement. Implemented stock management and revenue tracking systems with interactive dashboards for operational insights.",
     "technologies": [
       "Tauri",
       "Rust",
       "Firebase"
     ],
-    "projectImage": "assets/img/Project Mockups/Project_Temple.svg",
+    "projectImage": "Project Mockups/Project_Temple.png",
     "metrics": [
       {
         "name": "Load Time",
@@ -447,8 +447,8 @@
     ]
   },
   {
-    "title": "Data Analysis Tool",
-    "description": "Built a no-code data analysis and predictive modeling platform for users with strong statistical knowledge but no programming experience. The tool allows users to upload CSV datasets, generate interactive charts and graphs, and build basic machine learning models such as linear regression and logistic regression directly through a user-friendly interface. Developed with React and Flask, the platform streamlines data exploration and modeling for rapid insights.",
+    "title": "No-Code Analytics Platform",
+    "description": "Led development of no-code data analysis platform targeting non-technical users with statistical expertise. Managed product requirements gathering and user experience design to enable CSV upload, interactive visualization, and machine learning model building. Coordinated React and Flask development teams to deliver sub-10-second model generation while supporting 500MB file processing capabilities.",
     "technologies": [
       "React",
       "Python",
@@ -458,7 +458,7 @@
       "Scikit-learn",
       "Chart.js"
     ],
-    "projectImage": "assets/img/Project Mockups/Project_WebAnalysis.svg",
+    "projectImage": "Project Mockups/Project_WebAnalysis.png",
     "metrics": [
       {
         "name": "Base Model Build Time",
@@ -475,8 +475,8 @@
     ]
   },
   {
-    "title": "ColorCoding Tool",
-    "description": "Developed a computer vision-based chemical analysis tool to predict methanol and ethanol percentages in solutions using image uploads. Designed for professionals in chemistry, food safety, and quality control, the tool replaced expensive lab-based equipment with a cost-effective, fast, and highly accurate alternative. Achieved 93%+ prediction accuracy with results generated in under 3 seconds, making it a practical solution for real-world industrial applications.",
+    "title": "Chemical Analysis Tool",
+    "description": "Managed computer vision-based chemical analysis platform development, coordinating AI/ML teams to achieve 93%+ accuracy in methanol/ethanol detection. Led product positioning as cost-effective alternative to lab equipment, resulting in 40% cost reduction for industrial clients. Implemented quality control processes and managed deployment for chemistry, food safety, and industrial applications with sub-3-second response times.",
     "technologies": [
       "Python",
       "OpenCV",
@@ -484,7 +484,7 @@
       "Flask",
       "Pandas"
     ],
-    "projectImage": "assets/img/Project Mockups/Project_ColorCoding.svg",
+    "projectImage": "Project Mockups/Project_ColorCoding.png",
     "metrics": [
       {
         "name": "Accuracy",

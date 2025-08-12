@@ -178,7 +178,7 @@ const FrontPage = () => {
           K Sai Anirudh
         </Typography>
         <Typography className={classes.subtitle} variant="h5">
-          Technical Product Manager & Full-Stack Developer
+          Technical Product Manager with 4+ Years of Experience in
           <br />
           Building products that solve real problems
         </Typography>
