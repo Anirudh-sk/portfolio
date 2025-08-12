@@ -65,12 +65,13 @@ const SkillsPage = () => {
     },
     skillsGrid: {
       display: "grid",
-      gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))",
-      gap: "2rem",
+      gridTemplateColumns: "1fr 1fr",
+      gap: "3rem",
       marginBottom: "2rem",
-      [theme.breakpoints.down("sm")]: {
+      alignItems: "start",
+      [theme.breakpoints.down("md")]: {
         gridTemplateColumns: "1fr",
-        gap: "1rem",
+        gap: "2rem",
       },
     },
     skillCard: {
