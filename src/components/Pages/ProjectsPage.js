@@ -13,7 +13,7 @@ import {
   useTheme,
   useMediaQuery,
 } from "@material-ui/core";
-import { ArrowBack, ArrowForward, Launch, Code } from "@material-ui/icons";
+import { ArrowBack, ArrowForward, Launch } from "@material-ui/icons";
 
 import * as styles from "../../theme/commonStyles";
 import projectsData from "../../updated_projects.json";
@@ -66,13 +66,15 @@ const ProjectsPage = () => {
     projectCard: {
       minWidth: isMobile ? "100%" : "calc(33.333% - 1.33rem)",
       maxWidth: isMobile ? "100%" : "calc(33.333% - 1.33rem)",
-      height: "auto",
+      height: "100%",
       borderRadius: "16px",
       boxShadow: "0 8px 32px rgba(0, 0, 0, 0.1)",
       transition: "all 0.3s ease",
       background: "linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%)",
       border: "1px solid rgba(255, 255, 255, 0.2)",
       overflow: "hidden",
+      display: "flex",
+      flexDirection: "column",
       "&:hover": {
         transform: "translateY(-8px)",
         boxShadow: "0 16px 48px rgba(0, 0, 0, 0.15)",
@@ -86,34 +88,38 @@ const ProjectsPage = () => {
     },
     cardContent: {
       padding: "1.5rem",
-      height: "auto",
       display: "flex",
       flexDirection: "column",
+      flexGrow: 1,
+      textAlign: "center",
     },
     projectTitle: {
       fontSize: "1.4rem",
       fontWeight: "bold",
-      marginBottom: "0.8rem",
+      marginBottom: "1rem",
       color: "#2d3748",
       lineHeight: "1.3",
+      textAlign: "center",
     },
     projectDescription: {
       fontSize: "0.95rem",
       color: "#4a5568",
       lineHeight: "1.5",
-      marginBottom: "1rem",
+      marginBottom: "1.5rem",
       display: "-webkit-box",
-      WebkitLineClamp: 4,
+      WebkitLineClamp: 3,
       WebkitBoxOrient: "vertical",
       overflow: "hidden",
       textOverflow: "ellipsis",
+      textAlign: "center",
       flexGrow: 1,
     },
     techChipsContainer: {
       display: "flex",
       flexWrap: "wrap",
       gap: "0.5rem",
-      marginBottom: "1rem",
+      marginBottom: "1.5rem",
+      justifyContent: "center",
     },
     techChip: {
       backgroundColor: "#e2e8f0",
@@ -128,10 +134,11 @@ const ProjectsPage = () => {
       display: "flex",
       flexWrap: "wrap",
       gap: "0.8rem",
-      marginBottom: "1rem",
-      padding: "0.8rem",
+      marginBottom: "1.5rem",
+      padding: "1rem",
       backgroundColor: "#f7fafc",
       borderRadius: "8px",
+      justifyContent: "center",
     },
     metricItem: {
       display: "flex",
@@ -152,7 +159,8 @@ const ProjectsPage = () => {
     },
     cardActions: {
       padding: "0 1.5rem 1.5rem",
-      justifyContent: "space-between",
+      justifyContent: "center",
+      marginTop: "auto",
     },
     actionButton: {
       borderRadius: "8px",
@@ -266,8 +274,8 @@ const ProjectsPage = () => {
         )}
       </CardContent>
 
-      <CardActions className={classes.cardActions}>
-        {project.previewLink && (
+      {project.previewLink && (
+        <CardActions className={classes.cardActions}>
           <Button
             className={`${classes.actionButton} ${classes.primaryButton}`}
             startIcon={<Launch />}
@@ -277,14 +285,8 @@ const ProjectsPage = () => {
           >
             View Live
           </Button>
-        )}
-        <Button
-          className={`${classes.actionButton} ${classes.secondaryButton}`}
-          startIcon={<Code />}
-        >
-          Details
-        </Button>
-      </CardActions>
+        </CardActions>
+      )}
     </Card>
   );
 
@@ -310,6 +312,7 @@ const ProjectsPage = () => {
                 gap: "2rem",
                 minWidth: "100%",
                 justifyContent: isMobile ? "center" : "flex-start",
+                alignItems: "stretch",
               }}
             >
               {projectsData
