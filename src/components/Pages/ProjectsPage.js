@@ -22,7 +22,8 @@ const ProjectsPage = () => {
   const muiTheme = useTheme();
   const isMobile = useMediaQuery(muiTheme.breakpoints.down("sm"));
   const [currentIndex, setCurrentIndex] = useState(0);
-  const projectsPerPage = isMobile ? 1 : 3;
+  const isTablet = useMediaQuery(muiTheme.breakpoints.down("md"));
+  const projectsPerPage = isMobile ? 1 : isTablet ? 2 : 3;
 
   const useStyles = makeStyles({
     columnDiv: {
@@ -34,6 +35,7 @@ const ProjectsPage = () => {
       paddingBottom: "4rem",
       paddingTop: "2rem",
       minHeight: "100vh",
+      padding: "2rem 1rem 4rem",
     },
     headerText: {
       ...styles.headerText,
@@ -52,21 +54,21 @@ const ProjectsPage = () => {
       marginBottom: "3rem",
     },
     carouselContainer: {
-      width: "90%",
-      maxWidth: "1200px",
+      width: "95%",
+      maxWidth: "1400px",
       position: "relative",
       overflow: "hidden",
     },
     projectsGrid: {
       display: "flex",
       transition: "transform 0.5s ease-in-out",
-      gap: "2rem",
-      padding: "1rem 0",
+      gap: "2.5rem",
+      padding: "2rem 0",
     },
     projectCard: {
-      minWidth: isMobile ? "100%" : "calc(33.333% - 1.33rem)",
-      maxWidth: isMobile ? "100%" : "calc(33.333% - 1.33rem)",
-      height: "100%",
+      minWidth: isMobile ? "100%" : isTablet ? "calc(50% - 1.25rem)" : "calc(33.333% - 1.67rem)",
+      maxWidth: isMobile ? "100%" : isTablet ? "calc(50% - 1.25rem)" : "calc(33.333% - 1.67rem)",
+      minHeight: "600px",
       borderRadius: "16px",
       boxShadow: "0 8px 32px rgba(0, 0, 0, 0.1)",
       transition: "all 0.3s ease",
@@ -87,7 +89,7 @@ const ProjectsPage = () => {
       display: "block",
     },
     cardContent: {
-      padding: "1.5rem",
+      padding: "2rem 1.5rem",
       display: "flex",
       flexDirection: "column",
       flexGrow: 1,
@@ -131,31 +133,40 @@ const ProjectsPage = () => {
       },
     },
     metricsContainer: {
-      display: "flex",
-      flexWrap: "wrap",
-      gap: "0.8rem",
+      display: "grid",
+      gridTemplateColumns: isMobile ? "1fr 1fr" : "repeat(2, 1fr)",
+      gap: "1rem",
       marginBottom: "1.5rem",
-      padding: "1rem",
+      padding: "1.2rem",
       backgroundColor: "#f7fafc",
-      borderRadius: "8px",
-      justifyContent: "center",
+      borderRadius: "12px",
+      border: "1px solid #e2e8f0",
     },
     metricItem: {
       display: "flex",
       flexDirection: "column",
       alignItems: "center",
-      minWidth: "60px",
+      padding: "0.5rem",
+      backgroundColor: "#ffffff",
+      borderRadius: "8px",
+      border: "1px solid #e2e8f0",
+      minHeight: "70px",
+      justifyContent: "center",
     },
     metricValue: {
-      fontSize: "0.9rem",
+      fontSize: "1.1rem",
       fontWeight: "bold",
       color: "#2d3748",
+      marginBottom: "0.25rem",
     },
     metricLabel: {
-      fontSize: "0.7rem",
+      fontSize: "0.75rem",
       color: "#718096",
       textAlign: "center",
-      lineHeight: "1.2",
+      lineHeight: "1.3",
+      fontWeight: "500",
+      wordBreak: "break-word",
+      hyphens: "auto",
     },
     cardActions: {
       padding: "0 1.5rem 1.5rem",
@@ -186,8 +197,9 @@ const ProjectsPage = () => {
       display: "flex",
       justifyContent: "center",
       alignItems: "center",
-      gap: "1rem",
-      marginTop: "2rem",
+      gap: "1.5rem",
+      marginTop: "3rem",
+      padding: "0 1rem",
     },
     navButton: {
       backgroundColor: "#ffffff",
@@ -266,7 +278,7 @@ const ProjectsPage = () => {
                   {metric.value}
                 </Typography>
                 <Typography className={classes.metricLabel}>
-                  {metric.name}
+                  {metric.name.length > 20 ? `${metric.name.substring(0, 18)}...` : metric.name}
                 </Typography>
               </Box>
             ))}
@@ -309,10 +321,11 @@ const ProjectsPage = () => {
               key={pageIndex}
               style={{
                 display: "flex",
-                gap: "2rem",
+                gap: "2.5rem",
                 minWidth: "100%",
                 justifyContent: isMobile ? "center" : "flex-start",
                 alignItems: "stretch",
+                padding: "0 1rem",
               }}
             >
               {projectsData
