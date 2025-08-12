@@ -133,7 +133,6 @@ const AboutPage = () => {
   <b>What I bring:</b><br />
   • <b>Full-cycle product leadership</b> — from user research and strategy to architecture decisions and go-to-market execution<br />
   • <b>Multi-disciplinary team building</b> — recruiting, mentoring, and aligning engineering, design, and business teams<br />
-  • <b>Scalable & high-performance systems</b> — including patent-pending architecture designed for performance, security, and data privacy<br />
   • <b>Hands-on technical expertise</b> — able to dive deep with engineering teams and make informed trade-offs between speed, quality, and technical debt<br />
   • <b>Stakeholder & client management</b> — balancing diverse priorities while ensuring products meet business goals and delight users<br /><br />
 
