@@ -1,7 +1,7 @@
 [
   {
-    "title": "Attendify",
-    "description": "Led end-to-end product development for a privacy-first membership management platform serving 1000+ users across fitness and education sectors. Coordinated cross-functional teams to deliver QR-based attendance tracking, automated billing systems, and BI dashboards. Implemented agile methodologies resulting in 99.07% crash-free performance and sub-1-second load times while ensuring GDPR compliance through innovative privacy architecture.",
+    "title": "Attendify - Enterprise Membership Platform",
+    "description": "Led cross-functional team of 10 professionals developing privacy-first membership platform serving 1000+ users. Delivered 99.07% crash-free performance with QR attendance tracking and automated billing systems.",
     "technologies": [
       "Kotlin",
       "Firebase",
@@ -31,8 +31,8 @@
     ]
   },
   {
-    "title": "Author Portfolio",
-    "description": "Managed digital transformation project for author's online presence, driving 25% increase in book sales through strategic SEO optimization and conversion funnel improvements. Coordinated with design and development teams to achieve 100% Lighthouse scores while integrating e-commerce partnerships with Amazon and Flipkart. Implemented performance monitoring resulting in 18% bounce rate reduction.",
+    "title": "Author Digital Commerce Platform",
+    "description": "Managed cross-functional team of 2 professionals driving 25% increase in book sales through strategic optimization. Achieved 100% Lighthouse scores with Amazon/Flipkart integrations and 18% bounce rate reduction.",
     "technologies": [
       "Next.js",
       "Tailwind CSS",
@@ -60,8 +60,8 @@
     ]
   },
   {
-    "title": "Avittam Homes Website",
-    "description": "Orchestrated complete website modernization for real estate developer, managing stakeholder requirements and technical constraints to deliver 20% lead conversion improvement. Coordinated legacy system migration while maintaining 99.9% uptime. Established performance benchmarks and monitoring systems that improved page load times and enhanced brand positioning in premium market segment.",
+    "title": "Avittam Real Estate Platform",
+    "description": "Led cross-functional team of 2 professionals modernizing real estate platform with 20% lead conversion improvement. Managed legacy migration maintaining 99.9% uptime and enhanced premium market positioning.",
     "technologies": [
       "HTML",
       "CSS",
@@ -90,8 +90,8 @@
     ]
   },
   {
-    "title": "CA Firm Digital Platform",
-    "description": "Spearheaded digital transformation initiative for chartered accountancy firm, implementing automated lead capture systems and WhatsApp integration for client communication. Managed SEO strategy to achieve top local search rankings while coordinating Google Sheets automation for real-time data processing. Delivered 100% Lighthouse best practices score through systematic quality assurance processes.",
+    "title": "CA Firm Digital Transformation",
+    "description": "Managed cross-functional team of 2 professionals implementing automated lead capture and WhatsApp integration systems. Achieved top local search rankings and 100% Lighthouse best practices score.",
     "technologies": [
       "HTML",
       "CSS",
@@ -120,8 +120,8 @@
     ]
   },
   {
-    "title": "Healthcare AI Platform",
-    "description": "Managed confidential healthcare AI initiative involving predictive analytics on sensitive medical datasets. Coordinated data science team to achieve 90% prediction accuracy while ensuring HIPAA compliance and data privacy standards. Implemented rigorous testing protocols to minimize false positives/negatives below 5%. Oversaw secure local server deployment and established data governance frameworks.",
+    "title": "Healthcare AI Platform (Confidential)",
+    "description": "Managed confidential healthcare AI project with cross-functional team of 6 professionals achieving 90% prediction accuracy. Led HIPAA-compliant deployment with <5% false positive/negative rates on 1M+ medical records.",
     "technologies": [
       "Python",
       "OpenAI API",
@@ -151,8 +151,8 @@
     ]
   },
   {
-    "title": "Sports Industry MVP",
-    "description": "Led cross-platform mobile app development from concept to market validation, managing product roadmap and stakeholder expectations for sports industry solution. Coordinated React Native development team to deliver MVP within 3-month timeline while maintaining 98.7% crash-free sessions. Established user testing protocols and feedback loops for iterative product improvement and market fit validation.",
+    "title": "Sports Industry Mobile Platform",
+    "description": "Led cross-functional team of 7 professionals developing cross-platform mobile app from concept to market validation in 3 months. Maintained 98.7% crash-free sessions with comprehensive user testing protocols.",
     "technologies": [
       "React Native",
       "Firebase",
@@ -180,8 +180,8 @@
     ]
   },
   {
-    "title": "Marketing Agency Platform",
-    "description": "Managed comprehensive digital platform development for marketing agency, focusing on client acquisition and credibility building. Coordinated video production and web development teams to create engaging hero content while achieving 94% performance scores. Established case study presentation framework and ROAS tracking systems that enhanced client trust and business development efforts.",
+    "title": "Marketing Agency Digital Platform",
+    "description": "Managed cross-functional team of 2 professionals building comprehensive marketing platform with video production coordination. Achieved 94% performance scores and established ROAS tracking systems enhancing client acquisition.",
     "technologies": [
       "HTML",
       "CSS",
@@ -210,8 +210,8 @@
     ]
   },
   {
-    "title": "MUN Company Platform",
-    "description": "Orchestrated complete website transformation for Model United Nations organization, managing brand identity development and event promotion strategies. Coordinated WordPress development and design teams to achieve 100% performance scores while establishing visual brand guidelines. Implemented content management workflows that enhanced professional credibility and school partnership acquisition.",
+    "title": "MUN Organization Platform",
+    "description": "Led cross-functional team of 2 professionals in complete digital transformation achieving 100% performance scores. Managed brand identity development and content workflows enhancing school partnership acquisition.",
     "technologies": [
       "WordPress",
       "Canva",
@@ -239,8 +239,8 @@
     ]
   },
   {
-    "title": "Sports Academy Portfolio",
-    "description": "Led digital marketing platform development for badminton academy, managing stakeholder requirements for player showcasing and parent engagement. Coordinated social media integration and testimonial collection systems while establishing brand credibility frameworks. Implemented Instagram feed automation and media gallery management that enhanced academy's competitive positioning and enrollment rates.",
+    "title": "Sports Academy Digital Platform",
+    "description": "Managed cross-functional team of 2 professionals building digital platform with social media integration and testimonial systems. Implemented Instagram automation and media gallery management enhancing enrollment rates.",
     "technologies": [
       "HTML",
       "CSS",
@@ -269,8 +269,8 @@
     ]
   },
   {
-    "title": "Plant Species AI Platform",
-    "description": "Managed AI-powered plant recognition platform development, coordinating data science and web development teams to process 130K+ plant species dataset. Led model optimization efforts achieving 95% accuracy through ensemble methods and stochastic weight averaging. Implemented GPT-3 integration for real-time Q&A functionality while managing web scraping operations for contextual plant information.",
+    "title": "Plant Species AI Recognition Platform",
+    "description": "Led cross-functional team of 8 professionals building AI plant recognition platform processing 130K+ species with 95% accuracy. Managed GPT-3 integration and web scraping operations delivering sub-4-second response times.",
     "technologies": [
       "React",
       "Flask",
@@ -300,8 +300,8 @@
     ]
   },
   {
-    "title": "Fintech Loan System",
-    "description": "Led development of AI-powered loan approval system, managing data science team to achieve 85% prediction accuracy while reducing processing time by 40%. Coordinated integration with existing loan workflows and established human verification protocols. Implemented comprehensive testing frameworks for false positive/negative minimization and managed regulatory compliance requirements for financial services.",
+    "title": "Fintech Loan Approval System (Confidential)",
+    "description": "Managed confidential fintech project with cross-functional team of 5 professionals achieving 85% prediction accuracy and 40% processing reduction. Led regulatory compliance implementation and risk management protocols.",
     "technologies": [
       "Python",
       "Scikit-learn",
@@ -326,8 +326,8 @@
     ]
   },
   {
-    "title": "Trading Automation Platform",
-    "description": "Managed intelligent stock trading system development, coordinating algorithm design and machine learning implementation to achieve 80% manual work reduction. Led integration of SAX models with domain expertise while establishing risk management protocols. Implemented automated decision-making systems that generated 18% revenue growth through improved trading speed and accuracy.",
+    "title": "Trading Automation Platform (Confidential)",
+    "description": "Led confidential trading system with cross-functional team of 6 professionals achieving 80% work reduction and 18% revenue growth. Managed algorithm design and risk management protocols with 82% prediction accuracy.",
     "technologies": [
       "Python",
       "Pandas",
@@ -358,7 +358,7 @@
   },
   {
     "title": "Multi-Sport Academy Platform",
-    "description": "Orchestrated comprehensive website transformation for multi-sport facility, managing SEO optimization from 55% to 100% while coordinating performance improvements from 40% to 73%. Led stakeholder alignment across multiple sport disciplines and established digital marketing frameworks. Implemented systematic quality assurance processes achieving 100% best practices scores and enhanced member acquisition strategies.",
+    "description": "Led cross-functional team of 2 professionals transforming multi-sport website, improving SEO from 55% to 100% and performance from 40% to 73%. Managed stakeholder alignment across multiple disciplines enhancing member acquisition.",
     "technologies": [
       "HTML",
       "CSS",
@@ -387,8 +387,8 @@
     ]
   },
   {
-    "title": "EdTech PWA Platform",
-    "description": "Led innovative meme-based learning platform development as PWA, managing product strategy from concept to Play Store launch. Coordinated Firebase backend implementation and community engagement features while establishing go-to-market testing protocols. Implemented performance optimization achieving 95% best practices scores and managed monetization strategy validation for educational technology market.",
+    "title": "EdTech PWA Learning Platform",
+    "description": "Led cross-functional team of 6 professionals developing innovative PWA learning platform from concept to Play Store launch. Managed Firebase backend and community features achieving 95% best practices scores.",
     "technologies": [
       "PWA",
       "Firebase",
@@ -420,7 +420,7 @@
   },
   {
     "title": "Temple Management System",
-    "description": "Managed comprehensive digital transformation for temple operations, coordinating Tauri and Rust development teams to create high-performance billing system. Led stakeholder requirements gathering and change management to achieve 100% paper reduction and 40% efficiency improvement. Implemented stock management and revenue tracking systems with interactive dashboards for operational insights.",
+    "description": "Managed cross-functional team of 5 professionals building high-performance temple billing system using Tauri and Rust. Achieved 100% paper reduction and 40% efficiency improvement with interactive dashboards.",
     "technologies": [
       "Tauri",
       "Rust",
@@ -448,7 +448,7 @@
   },
   {
     "title": "No-Code Analytics Platform",
-    "description": "Led development of no-code data analysis platform targeting non-technical users with statistical expertise. Managed product requirements gathering and user experience design to enable CSV upload, interactive visualization, and machine learning model building. Coordinated React and Flask development teams to deliver sub-10-second model generation while supporting 500MB file processing capabilities.",
+    "description": "Led cross-functional team of 7 professionals developing no-code analytics platform for non-technical users. Delivered sub-10-second model generation supporting 500MB CSV processing with interactive visualization.",
     "technologies": [
       "React",
       "Python",
@@ -475,8 +475,8 @@
     ]
   },
   {
-    "title": "Chemical Analysis Tool",
-    "description": "Managed computer vision-based chemical analysis platform development, coordinating AI/ML teams to achieve 93%+ accuracy in methanol/ethanol detection. Led product positioning as cost-effective alternative to lab equipment, resulting in 40% cost reduction for industrial clients. Implemented quality control processes and managed deployment for chemistry, food safety, and industrial applications with sub-3-second response times.",
+    "title": "Chemical Analysis Computer Vision Tool",
+    "description": "Managed cross-functional team of 5 professionals building computer vision chemical analysis tool achieving 93%+ accuracy. Led cost-effective positioning delivering 40% cost reduction vs traditional lab methods.",
     "technologies": [
       "Python",
       "OpenCV",

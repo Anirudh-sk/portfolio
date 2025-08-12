@@ -127,31 +127,28 @@ const AboutPage = () => {
           />
           
           <Typography className={classes.bodyText}>
-            My name is <b>K Sai Anirudh</b><br /><br />
-            I'm a <b>Technical Product Manager</b> specializing in <b>0-to-1 product development</b> and scaling solutions
-            that drive real business impact. With a strong engineering background, I excel at building products from initial
-            concept through successful launch and growth.<br /><br />
+  My name is <b>K Sai Anirudh</b><br /><br />
+  I’m a <b>Technical Product Manager</b> with a proven track record of leading <b>20+ products from 0-to-1</b> — driving every stage from initial idea to successful launch and scale. I’ve owned the full product lifecycle, including hiring, defining the product roadmap, managing client relationships, and overseeing on-time, high-quality delivery.<br /><br />
 
-            <b>What I bring:</b><br />
-            • <b>End-to-end product ownership</b> — from user research and strategy to technical architecture decisions<br />
-            • <b>Cross-functional team leadership</b> — aligning engineering, design, and business stakeholders<br />
-            • <b>Scalable system design</b> — including patent-pending architecture focused on performance and data privacy<br />
-            • <b>Technical trade-off expertise</b> — making informed decisions between speed, quality, and technical debt<br /><br />
+  <b>What I bring:</b><br />
+  • <b>Full-cycle product leadership</b> — from user research and strategy to architecture decisions and go-to-market execution<br />
+  • <b>Multi-disciplinary team building</b> — recruiting, mentoring, and aligning engineering, design, and business teams<br />
+  • <b>Scalable & high-performance systems</b> — including patent-pending architecture designed for performance, security, and data privacy<br />
+  • <b>Hands-on technical expertise</b> — able to dive deep with engineering teams and make informed trade-offs between speed, quality, and technical debt<br />
+  • <b>Stakeholder & client management</b> — balancing diverse priorities while ensuring products meet business goals and delight users<br /><br />
 
-            I thrive at the intersection of technical feasibility and user needs, turning complex problems into elegant solutions.
-            My hands-on development experience allows me to work seamlessly with engineering teams while maintaining a sharp
-            focus on business outcomes and user experience. I'm passionate about building products that solve real problems
-            and create lasting value.
-            {" "}
-            <Link
-              onClick={scrollToContact}
-              className={classes.link}
-              underline="none"
-            >
-              Let's connect
-            </Link>
-            .
-          </Typography>
+  I thrive in high-stakes, fast-paced environments where clarity, adaptability, and execution make the difference. I excel at turning complex challenges into elegant, scalable solutions that deliver measurable business impact. Whether it’s building the right team, defining the strategy, or ensuring flawless delivery, I bring the vision and execution needed to turn great ideas into market-ready products.<br /><br />
+
+  <Link
+    onClick={scrollToContact}
+    className={classes.link}
+    underline="none"
+  >
+    Let’s connect
+  </Link>
+  .
+</Typography>
+
         </Box>
       </Box>
       <SkillsPage />

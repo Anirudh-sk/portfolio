@@ -117,8 +117,6 @@ const SkillsPage = () => {
     { icon: "carbon:machine-learning", name: "Machine Learning" },
     { icon: "carbon:ai-results", name: "Artificial Intelligence" },
     { icon: "fluent:chat-bubbles-question-20-filled", name: "Large Language Models" },
-    { icon: "mdi:chart-line", name: "Data Analytics" },
-    { icon: "cib:mongodb", name: "MongoDB" },
     { icon: "bx:bxl-c-plus-plus", name: "C++" },
     { icon: "bx:bxl-firebase", name: "Firebase" },
     { icon: "bx:bxl-nodejs", name: "Node.js" },
